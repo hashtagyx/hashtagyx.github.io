@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Show or hide the button based on scroll position
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 20) {
         scrollToTopBtn.classList.remove('d-none');
       } else {
         scrollToTopBtn.classList.add('d-none');
